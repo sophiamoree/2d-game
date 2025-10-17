@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cueev6387s60i"]
+
+[ext_resource type="Texture2D" uid="uid://ebguwxsk3gn3" path="res://icon.svg" id="1_yudik"]
+[ext_resource type="Texture2D" uid="uid://b32lv6e4d04mr" path="res://animal.webp" id="2_34t2a"]
+
+[node name="raccoon" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(112, 160)
+scale = Vector2(1.390625, 1.390625)
+texture = ExtResource("1_yudik")
+
+[node name="Animal" type="Sprite2D" parent="."]
+position = Vector2(627, 308)
+texture = ExtResource("2_34t2a")
