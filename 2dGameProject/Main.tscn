@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddgnxbvouu7ui"]
+
+[ext_resource type="PackedScene" uid="uid://3hkytt0jq1pv" path="res://fahmidasscene.tscn" id="1_glv2v"]
+
+[node name="main" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(16, 0)
+offset_left = -1273.0
+offset_top = -851.0
+offset_right = 1777.0
+offset_bottom = 1515.0
+color = Color(0.19983333, 0.25, 0.034999996, 0.6862745)
+
+[node name="Node3D" parent="." instance=ExtResource("1_glv2v")]
+transform = Transform3D(1, 0, 0, 0, 0.9999561, -0.009372281, 0, 0.009372281, 0.9999561, 0, 0, 0)
