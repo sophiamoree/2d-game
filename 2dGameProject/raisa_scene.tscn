@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5hi33jkx7asi"]
+
+[ext_resource type="Script" uid="uid://ca3nhfk414ft2" path="res://raisa_scene.gd" id="1_kyleu"]
+[ext_resource type="Texture2D" uid="uid://cfp3a2m3nedj8" path="res://raccon1.png" id="2_jng3y"]
+
+[node name="RaisaScene" type="Node2D"]
+script = ExtResource("1_kyleu")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Raccon1" type="Sprite2D" parent="."]
+position = Vector2(1096, 881)
+texture = ExtResource("2_jng3y")
