@@ -1,2 +1,3 @@
-# 2d-game
-work in progress game
+# lab 3 
+old 2d game making a new one
+
