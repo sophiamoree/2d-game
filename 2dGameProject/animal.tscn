@@ -3,5 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://b32lv6e4d04mr" path="res://animal.webp" id="1_stvu6"]
 
 [node name="animal" type="Sprite2D"]
+position = Vector2(294, 368)
 scale = Vector2(0.625, 0.6575)
 texture = ExtResource("1_stvu6")

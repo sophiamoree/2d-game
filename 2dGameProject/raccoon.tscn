@@ -1,12 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://cueev6387s60i"]
+[gd_scene load_steps=3 format=3 uid="uid://cueev6387s60i"]
 
+[ext_resource type="Texture2D" uid="uid://b32lv6e4d04mr" path="res://animal.webp" id="1_34t2a"]
 [ext_resource type="Script" uid="uid://sjio6q1kxu4q" path="res://raccoon.gd" id="1_yudik"]
-[ext_resource type="PackedScene" uid="uid://dg52y0vhgguug" path="res://animal.tscn" id="2_yudik"]
-[ext_resource type="Script" uid="uid://m588myep6opq" path="res://animal.gd" id="3_34t2a"]
 
-[node name="raccoon" type="Node2D"]
+[node name="player" type="Node2D"]
+
+[node name="raccoon" type="Sprite2D" parent="."]
+position = Vector2(569, 325)
+texture = ExtResource("1_34t2a")
 script = ExtResource("1_yudik")
-
-[node name="animal" parent="." instance=ExtResource("2_yudik")]
-position = Vector2(166, 261.00003)
-script = ExtResource("3_34t2a")
