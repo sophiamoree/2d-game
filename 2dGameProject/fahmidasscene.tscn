@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://3hkytt0jq1pv"]
+
+[ext_resource type="Texture2D" uid="uid://rjthf2y2x2c4" path="res://tree.png" id="1_iow80"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_loqc4"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="fahmidas scene" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="fahmidas scene"]
+position = Vector2(334, 253)
+scale = Vector2(2.8555555, 2.4055555)
+texture = ExtResource("1_iow80")
+
+[node name="Label" type="Label" parent="fahmidas scene"]
+light_mask = 7
+custom_minimum_size = Vector2(16, 0)
+offset_left = -105.0
+offset_top = -256.0
+offset_right = 624.0
+offset_bottom = -159.0
+text = "scene by fahmida
+"
+label_settings = SubResource("LabelSettings_loqc4")
+horizontal_alignment = 1
+vertical_alignment = 1
